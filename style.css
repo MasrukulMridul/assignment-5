@@ -3,9 +3,8 @@ body {
     background-size: cover;
     height: 100vh;
 }
-.second-part{
-    margin-left: auto;
-}
+
+
 .hungryFood {
     background-color:cornflowerblue;
     background-size: 100%;
@@ -26,10 +25,13 @@ body {
 }
 
 #all-hungry-Details{
-    padding: 5%;
+    box-sizing: border-box;
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
+    text-align: center;
+    margin: auto;
 }
 
 .food-attribute img{
