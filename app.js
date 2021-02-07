@@ -7,6 +7,7 @@ const displayAllFoodData = name =>{
     fetch(url)
     .then(res => res.json())
     .then (data => displayFoods(data.meals))
+    .catch(mistake =>alert('Sorry This Type of Food Not Available'));
     }
     const displayFoods = hungryFoods => {
     const foodsItem = document.getElementById("foods");
